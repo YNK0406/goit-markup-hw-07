@@ -1,0 +1,146 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #2F303A;
+}
+
+.address {margin-top: 20px;    }
+.address-list {font-style: normal;}
+.address-item:not(:last-child){
+    margin-bottom: 9px;}
+.address-map-link {
+    font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+cursor: default;
+}
+.curs-def {
+    cursor: default;
+       }
+.address-mail-link{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+.address-tel-link {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.logo-studio-footer {
+    color: #FFFFFF;
+}
+.footer-join-container {
+    padding-top: 15px;
+    margin-right: 93px;
+}
+.footer-join-item {
+    display:flex;
+    width: 206px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.footer-container {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.footer-join-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.footer-send-container{
+
+    padding-top: 15px;
+}
+.footer-send-field {
+    display: flex;
+    align-items: center;
+}
+.footer-send-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #FFFFFF;}
+.footer-send-input {
+    
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    margin-right: 12px; 
+    padding-left: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    ;
+}
+.footer-send-input:focus
+{   outline: none;
+    border-color:rgba(255, 255, 255, 0.3)
+}
+.footer-send-input::placeholder {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.25;
+   background-color: transparent;
+    
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);}
+
+.footer-send-input-btn {
+    
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.19;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    padding: 10px 29px 10px 28px;
+    border-radius: 4px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.footer-send-input-btn-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+
+.adress-container {
+    margin-right: 70px;
+
+}
+.team-join-icon-link {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.team-join-icon {
+    fill: #FFFFFF;
+}
