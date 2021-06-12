@@ -66,8 +66,7 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.menu-link:hover, .menu-link:focus {
   color: #2196F3;
 }
 
@@ -105,8 +104,7 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mail-link:hover,
-.mail-link:focus {
+.mail-link:hover, .mail-link:focus {
   color: #2196F3;
 }
 
@@ -134,8 +132,7 @@
   cursor: pointer;
 }
 
-.tel-link:hover,
-.tel-link:focus {
+.tel-link:hover, .tel-link:focus {
   color: #2196F3;
 }
 
@@ -202,8 +199,7 @@
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.hero-btn:hover, .hero-btn:focus {
   background: #188CE8;
 }
 
@@ -381,8 +377,7 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-icon-link:hover,
-.team-icon-link:focus {
+.team-icon-link:hover, .team-icon-link:focus {
   background-color: #2196F3;
 }
 
@@ -435,8 +430,7 @@
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), box-sizing 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-company-link:hover,
-.client-company-link:focus {
+.client-company-link:hover, .client-company-link:focus {
   border: 1px solid #2196F3;
   box-sizing: border-box;
   border-radius: 4px;
@@ -645,8 +639,7 @@
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-total:hover,
-.btn-total:focus {
+.btn-total:hover, .btn-total:focus {
   color: #FFFFFF;
   background: #2196F3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -668,8 +661,7 @@
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), box-sizing 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.work-list-item:hover,
-.work-list-item:focus {
+.work-list-item:hover, .work-list-item:focus {
   background: #FFFFFF;
   box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -777,8 +769,7 @@
   cursor: pointer;
 }
 
-.modal-window-btn:hover,
-.modal-window-btn:focus {
+.modal-window-btn:hover, .modal-window-btn:focus {
   fill: #2196F3;
 }
 
@@ -842,9 +833,6 @@
   fill: #2196F3;
 }
 
-/*.modal-form-input:required:focus:invalid{
-    border-color: red;
-}*/
 .modal-form-message {
   display: block;
   width: 100%;
@@ -935,8 +923,7 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-btn:hover,
-.modal-form-btn:focus {
+.modal-form-btn:hover, .modal-form-btn:focus {
   background-color: #188CE8;
 }
 

@@ -3,29 +3,32 @@
     padding-bottom: 60px;
     background: #2F303A;
 }
-
-.address {margin-top: 20px;    }
-.address-list {font-style: normal;}
+.address {
+    margin-top: 20px;    
+}
+.address-list {
+    font-style: normal;
+}
 .address-item:not(:last-child){
-    margin-bottom: 9px;}
+    margin-bottom: 9px;
+}
 .address-map-link {
     font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: #FFFFFF;
-cursor: default;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    cursor: default;
 }
 .curs-def {
     cursor: default;
-       }
+}
 .address-mail-link{
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-
 }
 .address-tel-link {
     font-weight: normal;
@@ -34,7 +37,6 @@ cursor: default;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-
 .logo-studio-footer {
     color: #FFFFFF;
 }
@@ -51,7 +53,6 @@ cursor: default;
 .footer-container {
     display: flex;
     justify-content: flex-start;
-    
 }
 .footer-join-title {
     font-weight: bold;
@@ -63,7 +64,6 @@ cursor: default;
     color: #FFFFFF;
 }
 .footer-send-container{
-
     padding-top: 15px;
 }
 .footer-send-field {
@@ -79,7 +79,6 @@ cursor: default;
     margin-bottom: 20px;
     color: #FFFFFF;}
 .footer-send-input {
-    
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -90,24 +89,21 @@ cursor: default;
     margin-right: 12px; 
     padding-left: 16px;
     color: rgba(255, 255, 255, 0.6);
-    ;
-}
-.footer-send-input:focus
-{   outline: none;
-    border-color:rgba(255, 255, 255, 0.3)
-}
-.footer-send-input::placeholder {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.25;
-   background-color: transparent;
-    
-    letter-spacing: 0.03em;
 
-    color: rgba(255, 255, 255, 0.6);}
+    &:focus{   outline: none;
+        border-color:rgba(255, 255, 255, 0.3)
+    }
 
+    &::placeholder {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.25;
+        background-color: transparent;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
 .footer-send-input-btn {
-    
     font-weight: bold;
     font-size: 16px;
     line-height: 1.19;
@@ -126,17 +122,13 @@ cursor: default;
     border-style: none;
     cursor: pointer;
 }
-
 .footer-send-input-btn-icon {
     width: 24px;
     height: 24px;
     margin-left: 10px;
 }
-
-
 .adress-container {
     margin-right: 70px;
-
 }
 .team-join-icon-link {
     background-color: rgba(255, 255, 255, 0.1);

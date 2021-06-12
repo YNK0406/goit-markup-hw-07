@@ -71,23 +71,23 @@
     width: 44px;
     height: 44px;
     border-radius: 50%;
-
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-            }
-.team-icon-link:hover,
-.team-icon-link:focus {
-    background-color: #2196F3;
-}             
+   
+    &:hover,
+    &:focus {
+        background-color: #2196F3;
+    }         
+}
+    
 .team-icon {
     fill: #afb1b8;
     width: 20px;
     height: 20px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    .team-icon-link:hover &,
+    .team-icon-link:focus & {
 
-}
-.team-icon-link:hover .team-icon,
-.team-icon-link:focus .team-icon {
-
-fill: #FFFFFF;
+    fill: #FFFFFF;
+    }
 }
